@@ -4,22 +4,28 @@
     margin: 0;
     padding: 0;
     font-family: "Exo 2", sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
+body{
+}
 .header{
     font-size: 28.5pt;
     font-weight: 700;
     color: #4dc3ce;
+    margin-bottom: 10px;
 }
 
 .main_container {
     height: 100%;
-    width: 725px;
-    margin-top: 100px;
+    width: 70%;
+    margin-top: 10%;
     position: relative;
-    margin-right: auto;
+    float: right;
     margin-left: auto;
-    left: 50px;
+    margin-right: 15%;
 }
 
 input:focus {outline: none}
@@ -43,21 +49,24 @@ a:visited{
 
 /*-----------------------------------------------------Главная страница*/
 
-
 .create_btn{
-    margin-bottom: 57px;
-    width: 482px;
-    height: 90px;
+    margin-bottom: 55px;
+    width: 100%;
+    max-width: 490px;
+    min-height: 90px;
     background-color: #4dc3ce;
-    font-size: 40pt;
+    font-size: 3.3333333333333333333333333333333em;
+    line-height: 90%;
     font-weight: 700;
     color: white;
     text-align: center;
+    display: table;
+    padding-bottom: 8px;
 }
-.create_btn p {
+.create_btn .p {
     position: relative;
-    /*vertical-align: middle;*/
-    top: 5px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .search_container{
