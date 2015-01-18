@@ -12,7 +12,7 @@
 body{
 }
 .header{
-    font-size: 28.5pt;
+    font-size: 2.375em;
     font-weight: 700;
     color: #4dc3ce;
     margin-bottom: 10px;
@@ -54,11 +54,13 @@ a:visited{
 
     .main_container {
         width: 90%;
-        float: right;
-        margin-right: 5%;
-        margin-left: 5%;
+        /*float: right;*/
+        margin-right: auto;
+        margin-left: auto;
     }
+
 }
+
 
 /*-----------------------------------------------------Главная страница*/
 
@@ -66,7 +68,6 @@ a:visited{
     margin-bottom: 55px;
     width: 100%;
     max-width: 490px;
-    min-width: 320px;
     min-height: 90px;
     background-color: #4dc3ce;
     font-size: 3.3333333333333333333333333333333em;
