@@ -20,12 +20,12 @@ body{
 
 .main_container {
     height: 100%;
-    width: 70%;
-    margin-top: 10%;
+    width: 60%;
+    margin-top: 5%;
     position: relative;
-    float: right;
+    /*float: right;*/
     margin-left: auto;
-    margin-right: 15%;
+    margin-right: auto;
 }
 
 input:focus {outline: none}
@@ -33,6 +33,7 @@ input:focus {outline: none}
 input {
     color: #787878;
 }
+
 
 button {
     border: none;
@@ -47,12 +48,24 @@ a:visited{
     color:  #4dc3ce;;
 }
 
+/*-----------------------------------------------------Медиа свойства*/
+
+@media screen and (max-width: 750px){
+
+    .main_container {
+        width: 90%;
+        float: right;
+        margin-right: 5%;
+    }
+}
+
 /*-----------------------------------------------------Главная страница*/
 
 .create_btn{
     margin-bottom: 55px;
     width: 100%;
     max-width: 490px;
+    min-width: 320px;
     min-height: 90px;
     background-color: #4dc3ce;
     font-size: 3.3333333333333333333333333333333em;

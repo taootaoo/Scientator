@@ -5,7 +5,7 @@
     <ignored path="Scientator.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="5098fc52-4830-4962-8930-3ed4fbf436da" time="1421611052667" ignored="false" />
-    <file path="/stylesheet.css" changelist="5098fc52-4830-4962-8930-3ed4fbf436da" time="1421612256753" ignored="false" />
+    <file path="/stylesheet.css" changelist="5098fc52-4830-4962-8930-3ed4fbf436da" time="1421613666890" ignored="false" />
     <file path="/item.html" changelist="5098fc52-4830-4962-8930-3ed4fbf436da" time="1415101355825" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="350" selection-end="350" vertical-scroll-proportion="0.35460123">
+            <state line="57" column="24" selection-start="925" selection-end="925" vertical-scroll-proportion="0.75092024">
               <folding />
             </state>
           </provider>
@@ -330,7 +330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="350" selection-end="350" vertical-scroll-proportion="0.35460123">
+        <state line="57" column="24" selection-start="925" selection-end="925" vertical-scroll-proportion="0.75092024">
           <folding />
         </state>
       </provider>
